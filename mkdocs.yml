@@ -10,8 +10,8 @@ theme:
   palette:
     primary: green
     accent: light-green
-repo_url: https://github.com/un4gt/mkdocs-demo
-repo_name: un4gt/mkdocs-demo
+repo_url: https://github.com/un4gt/using-mkdocs
+repo_name: un4gt/using-mkdocs
 copyright: Copyright © 2020 un4gt
 nav:
   - Home: index.md
