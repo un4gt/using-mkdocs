@@ -1,0 +1,39 @@
+site_name: Mkdoc Demo
+site_description: A demo site for MkDocs
+site_url: https://example.com
+docs_dir: docs
+theme:
+  language: en
+  name: material
+  favicon: _assets/avatar.ico
+  logo: _assets/avatar.jpg
+  palette:
+    primary: green
+    accent: light-green
+repo_url: https://github.com/un4gt/mkdocs-demo
+repo_name: un4gt/mkdocs-demo
+copyright: Copyright © 2020 un4gt
+nav:
+  - Home: index.md
+  - About: about.md
+  - Contact: contact.md
+  - Changelog: changelog.md
+  - Authors: authors.md
+  - Who uses: who-uses.md
+
+    
+plugins:
+  - search:
+      lang: 
+        - en
+        - zh
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
